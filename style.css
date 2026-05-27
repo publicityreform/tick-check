@@ -1,5 +1,8 @@
-img.banner {
-  width:20vw;
-  height:auto;
+img.logo {
+    width: 20vw;
+    height: auto;
+    mix-blend-mode: exclusion;
+    position: fixed;
+    box-shadow: 10px 10px 100px green;
 }
   
