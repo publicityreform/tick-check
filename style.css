@@ -1,4 +1,9 @@
 img.logo {
+    width:100%;
+    height:auto;
+}
+
+nav {
     width: 20vw;
     height: auto;
     position: fixed;
@@ -6,6 +11,32 @@ img.logo {
     top:10px;
     z-index: 2;
     box-shadow: 10px 10px 100px green;
+}
+
+/* Hide the checkbox */
+#menu-toggle {
+    display: none;
+}
+
+/* Hide menu by default */
+.menu {
+    display: none;
+    list-style: none;
+    padding: 10px;
+    margin: 0px;
+    line-height: 2em;
+}
+
+/* Show menu when checkbox is checked */
+#menu-toggle:checked ~ .menu {
+    display: block;
+}
+
+nav:has(#menu-toggle:checked){
+    background:white;
+    box-shadow: 10px 10px 100px gold;
+    height: 100%;
+    overflow: scroll;
 }
 
 img.banner {
