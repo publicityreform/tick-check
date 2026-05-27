@@ -4,12 +4,13 @@ img.logo {
     mix-blend-mode: exclusion;
     position: fixed;
     right: 10px;
+    top:10px;
     z-index: 2;
     box-shadow: 10px 10px 100px green;
 }
 
 img.banner {
-    width:100vw;
+    width:100%;
     height:auto;
     margin: 50px 0px;
 }
