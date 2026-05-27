@@ -11,6 +11,7 @@ img.logo {
 img.banner {
     width:100vw;
     height:auto;
+    margin: 50px 0px;
 }
 
 .main {
@@ -20,7 +21,6 @@ img.banner {
     color: green;
     font-size: 5vw;
     padding: 32px;
-    margin: 100px 0px;
 }
 
 a {
