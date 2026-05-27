@@ -11,7 +11,7 @@ img.banner {
     height:auto;
 }
 
-p.main {
+.main {
     max-width: 95vw;
     margin: auto;
     width: 880px;
