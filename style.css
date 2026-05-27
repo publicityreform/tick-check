@@ -4,11 +4,17 @@ body {
 }
 
 img.logo {
-    width:100%;
-    height:auto;
+    width: 20vw;
+    height: auto;
+    position: fixed;
+    right: 10px;
+    top:10px;
+    z-index: 2;
+    box-shadow: 10px 10px 100px green;
+    /* cursor:pointer; */
 }
 
-nav {
+/* nav {
     width: 20vw;
     height: auto;
     position: fixed;
@@ -17,7 +23,7 @@ nav {
     z-index: 2;
     box-shadow: 10px 10px 100px green;
     cursor:pointer;
-}
+} */
 
 /* Hide the checkbox */
 #menu-toggle {
