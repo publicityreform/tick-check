@@ -11,6 +11,10 @@ p.main {
     margin: auto;
     width: 880px;
     font-size: 4vw;
+    position: relative;
+    z-index: 0;
+    box-shadow: 0px 0px 100px magenta;
+    padding: 32px;
 }
 
 a {
