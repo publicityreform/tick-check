@@ -1,7 +1,6 @@
 img.logo {
     width: 20vw;
     height: auto;
-    mix-blend-mode: exclusion;
     position: fixed;
     right: 10px;
     top:10px;
