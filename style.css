@@ -5,4 +5,11 @@ img.logo {
     position: fixed;
     box-shadow: 10px 10px 100px green;
 }
+
+p.main {
+    max-width: 95vw;
+    margin: auto;
+    width: 880px;
+    font-size: 4vw;
+}
   
