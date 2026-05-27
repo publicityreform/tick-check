@@ -12,4 +12,15 @@ p.main {
     width: 880px;
     font-size: 4vw;
 }
+
+a {
+    text-decoration: none;
+    color: white;
+    background: green;
+    padding-inline: 5px;
+}
+
+a:hover {
+    background: magenta;
+}
   
