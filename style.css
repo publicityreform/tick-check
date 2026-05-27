@@ -6,6 +6,11 @@ img.logo {
     box-shadow: 10px 10px 100px green;
 }
 
+img.banner {
+    width:100vw;
+    height:auto;
+}
+
 p.main {
     max-width: 95vw;
     margin: auto;
