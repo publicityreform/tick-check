@@ -1,3 +1,8 @@
+body {
+    color: green;
+    font-size: 5vw;
+}
+
 img.logo {
     width:100%;
     height:auto;
@@ -49,8 +54,6 @@ img.banner {
     max-width: 80vw;
     margin: auto;
     width: 880px;
-    color: green;
-    font-size: 5vw;
     padding: 32px;
 }
 
