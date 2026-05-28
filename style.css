@@ -5,25 +5,28 @@ body {
 
 img.logo {
     width: 20vw;
-    height: auto;
-    position: fixed;
-    right: 10px;
-    top:10px;
-    z-index: 2;
+    max-width: 200px;
+    display: block;
+    margin: 10px;
     box-shadow: 10px 10px 100px green;
-    /* cursor:pointer; */
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
 
-/* nav {
-    width: 20vw;
+ nav {
     height: auto;
     position: fixed;
-    right: 10px;
-    top:10px;
+    right: 0px;
+    top:0px;
     z-index: 2;
-    box-shadow: 10px 10px 100px green;
+} 
+
+label {
     cursor:pointer;
-} */
+    display:block;
+    line-height: 0; 
+}
 
 /* Hide the checkbox */
 #menu-toggle {
@@ -34,9 +37,11 @@ img.logo {
 .menu {
     display: none;
     list-style: none;
-    padding: 10px;
+    padding: 20px;
     margin: 0px;
+    width: 60vw;
     line-height: 2em;
+    white-space: nowrap;
 }
 
 /* Show menu when checkbox is checked */
@@ -49,6 +54,10 @@ nav:has(#menu-toggle:checked){
     box-shadow: 10px 10px 100px green;
     height: 100%;
     overflow: scroll;
+}
+
+#menu-toggle:checked + label > img.logo {
+    transform: rotate(180deg);
 }
 
 img.banner {
@@ -74,4 +83,7 @@ a {
 a:hover {
     background: magenta;
 }
-  
+
+.menu a {
+    box-shadow: 10px 10px 50px brown;
+}
